@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/new-year-chaos/problem
+
 const main = (a) => {
   let n = a.length;
   let bribes = 0;
@@ -12,7 +14,6 @@ const main = (a) => {
   for (let i = n - 1; i >= 0; i--) {
     console.log(`Initial Array index ${i} : ${initialArray[i]}`);
     console.log(`Sorted Array index ${i} : ${a[i]}`);
-    
   }
 
   return bribes;

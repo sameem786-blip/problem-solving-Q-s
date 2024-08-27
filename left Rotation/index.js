@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/array-left-rotation/problem
+
 const main = (arr, shift) => {
   let newArray = [];
   console.log("Initial Array", arr);
